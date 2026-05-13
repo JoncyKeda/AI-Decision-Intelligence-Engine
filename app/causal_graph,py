@@ -1,0 +1,29 @@
+import networkx as nx
+
+class CausalGraph:
+
+    def build_graph(self):
+
+        graph = nx.DiGraph()
+
+        graph.add_edge(
+            "Marketing Budget",
+            "Revenue"
+        )
+
+        graph.add_edge(
+            "Product Price",
+            "Customer Retention"
+        )
+
+        graph.add_edge(
+            "Employee Count",
+            "Operational Efficiency"
+        )
+
+        graph.add_edge(
+            "Customer Retention",
+            "Revenue"
+        )
+
+        return graph
