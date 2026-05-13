@@ -1,0 +1,21 @@
+from app.decision_engine import DecisionEngine
+
+def main():
+
+    engine = DecisionEngine()
+
+    scenario = {
+        "marketing_budget": 20,
+        "product_price": 10,
+        "employee_count": 5
+    }
+
+    result = engine.evaluate_decision(scenario)
+
+    print("\n📊 Decision Analysis Result\n")
+
+    for key, value in result.items():
+        print(f"{key}: {value}")
+
+if __name__ == "__main__":
+    main()
