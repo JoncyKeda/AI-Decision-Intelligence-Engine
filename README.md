@@ -353,4 +353,4 @@ AI Decision Intelligence Engine can be used for:
 
 # 👨‍💻 Author
 
-## Joncy Keda - AI Developer
+## Joncy Keda - AI DEVELOPER
